@@ -1,4 +1,4 @@
-FROM ubuntu:mantic-20231011
+FROM ubuntu:22.04
 
 # Update and install necessary packages
 RUN apt-get update && apt-get install -y ca-certificates jq wget gnupg
